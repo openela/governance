@@ -19,8 +19,15 @@ The source packages for OpenELA will exist in a multi-repository structure, wher
 
 Branches will be used to identify the target for each source package. For example:
 
+In openela-main organisation, these branch names are specified:
+
 * Base: el-8.8, el-9.0, el-9.1
 * Modularity: el-8.8-module-$STREAM, el-9.1-module-$STREAM
+
+In openela-contrib, these branch names are specified:
+
+* Base: el-9.0-contrib, el-9.1-contrib
+* Module component: el-9.1-module-$STREAM-contrib
 
 *note: refer to the Contributor Policy for specifics on contributions.*
 
@@ -30,7 +37,7 @@ Within GitHub, OpenELA will be organized into the following top-level organizati
 
 * github.com/openela – The main repo for all root level tooling and repos (e.g. website, helper tools, and projects)
 * github.com/openela-main – A series of DistGit repos for hosting the base OS packages
-* github.com/openela-contrib – A series of DistGit repos for hosting community contributed packages (not patches). Similar to EPEL.
+* github.com/openela-contrib – A series of DistGit repos for hosting community maintained patches and packages.
 
 ### Main Project Repo: github.com/openela
 
@@ -38,7 +45,7 @@ This repository will contain all of the repositories with the exception of the D
 
 * Website sources
 * Tooling for use with DistGit: This tooling should be able to pull and push from the Lookaside cache as needed as well tools for doing local builds via Mock. A similar tool exists for Fedora called “fedpkg”.
-* ELProfile: A compatibility tool for testing/validating EL derivatives 
+* ELProfile: A compatibility tool for testing/validating EL derivatives
 * Documentation
 
 ### Base OS Repo: github.com/openela-main
@@ -69,7 +76,7 @@ The format for the lookaside cache is:
 
 This repository structure is similar to OpenELA-main for new packages that do not exist in the base upstream Enterprise Linux.
 
-Additionally, tarballs and binaries shall not be included in the Git repository, and instead it is important to define the pristine upstream sources via their fully qualified URIs in the RPM Spec file “Source#” tags. 
+Additionally, tarballs and binaries shall not be included in the Git repository, and instead it is important to define the pristine upstream sources via their fully qualified URIs in the RPM Spec file “Source#” tags.
 
 **DistGit Structure for the OpenELA Contrib Repo:**
 
