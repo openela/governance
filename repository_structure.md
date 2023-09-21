@@ -50,7 +50,7 @@ This repository will contain all of the repositories with the exception of the D
 
 ### Base OS Repo: github.com/openela-main
 
-The OpenELA-main is the primary repository for all Enterprise Linux sources. It will serve as the location for not only the 1:1 compatible pristine unbranded sources, but also as the location for all BaseOS optimizations, security fixes, etc.
+The OpenELA-main is the primary repository for all Enterprise Linux sources. It will serve as the location for the 1:1 compatible pristine unbranded sources.
 
 **DistGit Structure for the OpenELA Main Repo:**
 
@@ -74,7 +74,8 @@ The format for the lookaside cache is:
 
 ### Contrib Repo: github.com/openela-contrib
 
-This repository structure is similar to OpenELA-main for new packages that do not exist in the base upstream Enterprise Linux.
+This repository structure is similar to OpenELA-main for existing and new packages. It will serve as a location for all contributions of bug fixes over openela-main,
+as well as additional packages not available in openela-main.
 
 Additionally, tarballs and binaries shall not be included in the Git repository, and instead it is important to define the pristine upstream sources via their fully qualified URIs in the RPM Spec file “Source#” tags.
 
