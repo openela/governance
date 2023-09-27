@@ -2,7 +2,7 @@
 
 OpenELA will maintain publicly accessible git repositories of package sources necessary to create an Enterprise Linux compatible distribution.
 
-One of the goals of the OpenELA project is to build and maintain an infrastructure that is provider-agnostic. Furthermore, in order to maintain compatibility and independence, OpenELA repositories will rely on DistGit instead of git-lfs for binary storage, and will organize these  into a small set of “organizations” with flat structure.This will make it possible for the project to be hosted on any git backend infrastructure.
+One of the goals of the OpenELA project is to build and maintain maximum technology independence in our public resources. Furthermore, in order to maintain compatibility and independence, OpenELA repositories will rely on DistGit instead of git-lfs for binary storage, and will organize these  into a small set of “organizations” with flat structure.This will make it possible for the project to be hosted on any git backend infrastructure.
 
 
 ### Package Repository Structure
