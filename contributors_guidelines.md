@@ -62,6 +62,9 @@ Branches within the openela-contrib repo should retain the ‘contrib’ tag in 
 
 ### Contributing Bug Fix Patches into -contrib repos
 
+### Document Governance
+This document is owned and updated by the Technical Steering Committee. Please supply all suggested modifications for consideration by the Technical Steering Committee through the usual github constructs. 
+
 Patches and Bug Fix Patches are welcome in the openela-contrib repositories. This may require duplicating a repository between openela-main (which is bug-for-bug compatible) and the openela-contrib repositories (which can be patched).  Branches should include the tag ‘-contrib’ to allow for being able to `git clone` both the main and -contrib repositories into the same local git repo.
 
 Patches which are accepted to the -contrib branches should meet the “Bug Fix Patches” compatibility. The Technical Governance board can further define additional exceptions. Patches for -contrib branches must be present in the upstream project repository. Patches which are not applicable to or not accepted by upstream will require review by the Technical Steering Committee.
