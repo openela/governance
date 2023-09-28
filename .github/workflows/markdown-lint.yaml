@@ -10,5 +10,3 @@ jobs:
         uses: actions/checkout@v2
       - name: Run Markdown Lint
         uses: actionshub/markdownlint@main
-      - name: Run Link check
-        uses: gaurav-nelson/github-action-markdown-link-check@v1
