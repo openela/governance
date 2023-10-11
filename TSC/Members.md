@@ -1,3 +1,5 @@
+# OpenELA Technical Steering Committee members
+
 The current members of the OpenELA Technical Steering Committee
 
 * Rich Adams
@@ -5,10 +7,9 @@ The current members of the OpenELA Technical Steering Committee
 * Alan Clark
 * Brian Clemens
 * Mustafa Gezen
-* Taylor Goodwill 
+* Taylor Goodwill
 * Neil Hanlon
 * Gregory Kurtzer
 * Jeff Mahoney
 * Greg Marsden
 * Dirk Müller
-
