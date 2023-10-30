@@ -13,3 +13,4 @@ The current members of the OpenELA Technical Steering Committee
 * Jeff Mahoney
 * Greg Marsden
 * Dirk Müller
+* Lőrinc Pató
