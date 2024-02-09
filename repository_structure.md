@@ -35,24 +35,24 @@ example:
 
 In openela-main organisation, these branch names are specified:
 
-* **Base**: `el-9.0`, `el-9.1`
-* **Modulemd**: `el-9.1-modulemd-$STREAM`
+* **Base**: `el9`
+* **Modulemd**: `el9-modulemd-$STREAM`
    * This contains _only_ the module document (modulemd). This is because a
      module might be a component, but also just a standalone module with other
      components. The modulemd is also relatively stable compared to SRPMs.
-* **Module component**: `el-9.1-module-$STREAM`
+* **Module component**: `el9-stream-$STREAM`
    * Contains the SRPM content like **Base**. Used for components of modules and
      separate from base due to each module stream having the ability to have a
      different version.
 
 In openela-contrib, these branch names are specified:
 
-* **Base**: `el-9.0-contrib`, `el-9.1-contrib`
-* **Modulemd**: `el-9.1-modulemd-$STREAM-contrib`
+* **Base**: `el9-contrib`
+* **Modulemd**: `el9-modulemd-$STREAM-contrib`
    * This contains _only_ the module document (modulemd). This is because a
      module might be a component, but also just a standalone module with other
      components. The modulemd is also relatively stable compared to SRPMs
-* **Module component**: `el-9.1-module-$STREAM`
+* **Module component**: `el9-stream-$STREAM`
    * Contains the SRPM content like “Base”. Used for components of modules and
      separate from base due to each module stream having the ability to have a
      different version.
