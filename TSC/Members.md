@@ -6,11 +6,11 @@ The current members of the OpenELA Technical Steering Committee
 * Alex Burmashev
 * Alan Clark
 * Brian Clemens
+* Petar Dimov
 * Mustafa Gezen
 * Taylor Goodwill
 * Neil Hanlon
 * Gregory Kurtzer
-* Jeff Mahoney
 * Greg Marsden
 * Dirk Müller
 * Lőrinc Pató
