@@ -28,3 +28,4 @@ Make the leapp repository public on [github.com/openela](http://github.com/opene
 
 The TSC will continue to leverage and improve the automated processes that make new enterprise Linux sources available as timely as possible. These processes monitor and process the source  once the associated releases of new versions of Red Hat Enterprise Linux (RHEL) are available.
 
+
