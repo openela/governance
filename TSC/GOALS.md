@@ -1,31 +1,25 @@
 # OpenELA TSC Goals
 
-The OpenELA Technical Steering Committee(TSC) governs the technical aspects of the OpenELA community efforts.  Details on the TSC role and responsibilities are outlined within the TSC policy document: [https://github.com/openela/governance/tree/main/TSC](https://github.com/openela/governance/tree/main/TSC)
+The OpenELA Technical Steering Committee (TSC) governs the technical aspects of the OpenELA community efforts.  Learn more about the TSC role and responsibilities with the TSC policy document: [https://github.com/openela/governance/tree/main/TSC](https://github.com/openela/governance/tree/main/TSC)
 
-To assist the community to better understand the current TSC top goals, the TSC has decided to focus their efforts on following: 
+This document seeks to describe the upcoming goals of the TSC. 
 
-## Goal: Build a Common Foundation
+## Goal: Set the Enterprise Linux Standard
 
-The TSC is focused on providing a common foundation across Enterprise Linux distributions. This foundation allows distributions to maintain interoperability with other members of the OpenELA and provides Vendors the assurance of compatibility between the distributions. The TSC is focused on providing simplicity and transparency in building this foundation.  
+The TSC is focused on providing a common foundation across Enterprise Linux distributions that will define the standard of an Enterprise Linux distribution. This foundation helps to ensure that distributions interoperate  with other members of the OpenELA and provides software vendors the assurance of compatibility between the distributions. The TSC is focused on providing simplicity and transparency in building this foundation.  
 
 ## Goal: Enhance Transparency and Participation
 
-The members of the TSC are determined through the TSC policies. However others have expressed interest in listening in on the TSC meetings. To facilitate additional attendees, the meetings will move  to a google workspace. Moving to this service will be jointly managed going forward.
+Membership of the TSC is determined through TSC policies and bylaws, but we also encourage members of the OpenELA to observe our meetings. This is also the best way to find new ways to contribute to the [TSC](http://TSC.We)[.](http://TSC.We)  We also plan to instate an TSC Office Hour for interested community members to participate and discuss.
 
-## Goal: Public TSC office hour
+## Goal: Increase contributions to openela-contrib
 
-To facilitate additional collaboration with the community, the TSC will consider establishing an open office hour, inviting interested community members.
+From the beginning, we've had a goal of expanding the Enterprise Linux ecosystem. One way we've explored to increase the ecosystem is make more software available to members of our community. Whereas the openela-main repositories are intended for "bug-for-bug" compatible software that makes up the bulk of Enterprise Linux, we haven't lost sight of the openela-contrib area, which is intended to host the build files necessary to bring in additional software packages into the Enterprise Linux ecosystem.
 
-## Goal: Solicit contributions for openela-contrib
+## Goal: Continue making Enterprise Linux upgrades easier
 
-There is a distinction between openela-contrib and openela/ repositories. The openela-contrib repository houses packaging materials and metadata (spec files, sources, etc.) for existing projects. \`openela/\` is for development projects actively managed and supported by OpenELA members. Note that projects in both repositories may not be bug-for-bug compatible with each other."
+Earlier this year we published the OpenELA enhancements for LEAPP, which intend to simplify complex upgrade scenarios for Enterprise Linux systems. We plan to continue to add features to LEAPP. [github.com/openela/leapp-repository](http://github.com/openela/leapp-repository) 
 
-## Goal: Publish the Leapp repository and add further features
+## Goal: Continue to publish future Enterprise Linux versions
 
-Make the leapp repository public on [github.com/openela](http://github.com/openela) and add additional features to the project\!
-
-## Goal: Publish future Enterprise Linux versions as they become available
-
-The TSC will continue to leverage and improve the automated processes that make new enterprise Linux sources available as timely as possible. These processes monitor and process the source  once the associated releases of new versions of Red Hat Enterprise Linux (RHEL) are available.
-
-
+We're delighted to have OpenELA repositories for 8 and 9, and we plan to make newer Enterprise Linux source repos available within a timely fashion. 
