@@ -67,4 +67,6 @@ requested and approved by the OpenELA TSC on a per-individual basis.
 
 ## Contacting the OpenELA TSC
 
-The TSC can be contacted via the email address: [tsc@openela.org](mailto:tsc@openela.org)
+The TSC can be contacted via the email address: [tsc@openela.org](mailto:tsc@openela.org) 
+GPG public key available upon request.
+
