@@ -10,7 +10,7 @@ The TSC is focused on providing a common foundation across Enterprise Linux dist
 
 ## Goal: Enhance Transparency and Participation
 
-Membership of the TSC is determined through TSC policies and bylaws, but we also encourage members of the OpenELA to observe our meetings. This is also the best way to find new ways to contribute to the [TSC](http://TSC.We)[.](http://TSC.We)  We also plan to instate an TSC Office Hour for interested community members to participate and discuss.
+Membership of the TSC is determined through TSC policies and bylaws, but we also encourage members of the OpenELA to observe our meetings. This is also the best way to find new ways to contribute to the TSC.  We also plan to instate an TSC Office Hour for interested community members to participate and discuss.
 
 ## Goal: Increase contributions to openela-contrib
 
